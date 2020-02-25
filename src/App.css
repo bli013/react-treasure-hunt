@@ -1,3 +1,6 @@
+*{
+    background-color: black;
+}
 .box {
     border: 3px solid black;
     width: 100px;
@@ -5,6 +8,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: rgb(247, 179, 7);
+    background: linear-gradient(45deg, #dca 12%, transparent 0, transparent 88%, #dca 0),
+    linear-gradient(135deg, transparent 37%, #a85 0, #a85 63%, transparent 0),
+    linear-gradient(45deg, transparent 37%, #dca 0, #dca 63%, transparent 0) #753;
 
 }
 #theBoard{
@@ -13,4 +20,40 @@ flex-wrap: wrap;
 margin: 0 auto;
 width: 320px;
 height: 320px;
+font-size: 40px;
+}
+#title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(247, 179, 7);
+    background-image: url("https://media1.giphy.com/media/JXHhI4o9NCf8k/giphy.gif?cid=790b761126e4002ca286a0a8b4edae04a2eaadfe8376e419&rid=giphy.gif");
+    font-size: 45px
+}
+#background{
+    background-image: url("https://cdn.pixabay.com/photo/2019/11/21/08/41/island-4642068_960_720.jpg");
+}
+#counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    color: white;
+    background-image: url("https://media1.giphy.com/media/JXHhI4o9NCf8k/giphy.gif?cid=790b761126e4002ca286a0a8b4edae04a2eaadfe8376e419&rid=giphy.gif");
+    font-size: 50px;
+    margin: 4px 2px;
+    border-radius: 5%;
+}
+#reset{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    color: white;
+    background-image: url("https://media1.giphy.com/media/JXHhI4o9NCf8k/giphy.gif?cid=790b761126e4002ca286a0a8b4edae04a2eaadfe8376e419&rid=giphy.gif");
+    font-size: 25px;
+    margin: 4px 2px;
+    border-radius: 40%;
+
 }

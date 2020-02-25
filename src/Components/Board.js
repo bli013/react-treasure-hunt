@@ -10,8 +10,8 @@ constructor (props){
         tree: "🌴",
         treasure: null,
         bomb: null,
-        treasureIcon: "🏆🏅💰🏆🏅💰🏆🏅💰🏆🏅💰",
-        bombIcon: "💣💣💣💣💣💣💣💣💣💣💣💣",
+        treasureIcon: "🏆🏅💰🏆🏅💰🏆🏅💰🏆🏅💰🏆🏅💰🏆🏅💰🏆🏅💰🏆🏅💰",
+        bombIcon: "💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣",
         counter: 4
 
     }
@@ -94,6 +94,7 @@ constructor (props){
         {square}
         <Counter
         counter={this.state.counter} />
+        <br></br>
         <Reset
             reset={this.resetButton} />
       </div>

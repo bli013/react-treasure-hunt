@@ -6,9 +6,9 @@ class Counter extends Component {
 
   render() {
     return (
-      <div>
-        You have {this.props.counter} Left.
-      </div>
+      <h2 id="counter">
+        You Have {this.props.counter} Tries Left.
+      </h2>
     );
   }
 }
